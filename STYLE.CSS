@@ -1,0 +1,58 @@
+section{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;   
+
+}
+
+.login{
+    height: 100vh;
+    width: 500px;
+    background-color: white;
+         
+}
+#log{
+    background-color: rgba(76, 185, 76, 0.889);
+    width: 300px;
+}
+
+.image img{
+    height: 100vh;
+}
+
+
+input{
+    border-radius: 5px;
+    border: 2px;
+   
+    
+}
+button{
+    border-radius: 5px;
+    border: 2px;
+}
+.icon3{
+    padding-left: 20px;
+
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.fa-envelope{
+    position: relative;
+    right: 30px;
+}
+.fa-lock{
+    position: relative;
+    right: 30px;
+}
