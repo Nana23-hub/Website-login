@@ -56,3 +56,24 @@ button{
     position: relative;
     right: 30px;
 }
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    section {
+        grid-template-columns: 1fr; 
+    }
+    
+    .login {
+        width: 100%; 
+        padding: 20px; 
+    }
+    
+    .image img {
+        height: auto; 
+        width: 100%; 
+    }
+    
+    #log {
+        width: 100%; 
+    }
+}
